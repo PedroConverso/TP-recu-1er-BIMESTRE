@@ -13,11 +13,11 @@ public class DineroSuficiente : MonoBehaviour
         float total = precio1 + precio2;
 
         if (montoDinero == total)
-            Debug.Log("El monto de dinero es exactamente suficiente para pagar los dos precios.");
+            Debug.Log("El monto de dinero es exactamente suficiente");
         else if (montoDinero < total)
-            Debug.Log("El monto de dinero es insuficiente para pagar los dos precios.");
+            Debug.Log("El monto de dinero es insuficiente");
         else
-            Debug.Log("El monto de dinero excede los dos precios.");
+            Debug.Log("El monto de dinero es mas que los dos precios.");
     }
 
     
